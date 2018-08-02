@@ -15,7 +15,7 @@ const MainRoute = () => (
         <Register path="register" />
         <Layout path="/">
             <ListUsers path="list-users" />
-            <User path="user" />
+            <User path="user/:id" />
         </Layout>
     </Router>
 );
